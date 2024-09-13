@@ -4,6 +4,7 @@ name: Semgrep OSS scan
 on:
   # Scan changed files in PRs (diff-aware scanning):
   pull_request: {}
+  pull_request_target: {}
   # Scan on-demand through GitHub Actions interface:
   workflow_dispatch: {}
   # Scan mainline branches and report all findings:
